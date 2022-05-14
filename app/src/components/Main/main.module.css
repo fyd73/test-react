@@ -1,3 +1,23 @@
 .r-list {
-    font-size: 128px;
+    font-size: 12.8px;
+}
+
+.virt_value {
+    z-index: 2;
+    font-size: 12px;
+}
+
+.double_mint {
+    z-index: 4;
+    font-size: 12px;
+}
+
+.overton {
+    z-index: 1;
+    font-size: 12px;
+}
+
+.amo_led {
+    z-index: 3;
+    font-size: 12px;
 }

@@ -30,26 +30,26 @@ export default function Main() {
         </ListSubheader>
       }
     >
-      <ListItemButton id="virt_value">
+      <ListItemButton className="virt_value">
         <ListItemIcon id="m_pos">
           <SendIcon id="tr_amb" />
         </ListItemIcon>
         <ListItemText primary="Sent mail" />
       </ListItemButton>
-      <ListItemButton id="double_mint">
+      <ListItemButton className="double_mint">
         <ListItemIcon id="a_pos">
           <DraftsIcon id="mba_er" />
         </ListItemIcon>
         <ListItemText primary="Drafts" />
       </ListItemButton>
-      <ListItemButton id="overton" onClick={handleClick}>
+      <ListItemButton className="overton" onClick={handleClick}>
         <ListItemIcon id="b_pos">
           <InboxIcon id="ct_bam" />
         </ListItemIcon>
         <ListItemText primary="Inbox" />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
-      <ListItemButton id="amo_led">
+      <ListItemButton className="amo_led">
         <ListItemIcon id="a_pos">
           <DraftsIcon id="ge_bma" />
         </ListItemIcon>
